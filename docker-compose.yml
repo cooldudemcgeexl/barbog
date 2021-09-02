@@ -1,0 +1,5 @@
+services:
+  discordopenaibot:
+    build: .
+    env_file: .env
+    container_name: ${BOT_NAME}
